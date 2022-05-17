@@ -1,3 +1,15 @@
+
+%iframevideo {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+ }
+
+
+
+
 .principal p {
     color: rgb(155, 147, 161);
     padding: 20px;
@@ -36,11 +48,7 @@ h3 {
 	height: 0;
 
     iframe {
-    position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+        @extend %iframevideo;
     }
 }
 
@@ -70,7 +78,7 @@ h3 {
     grid-row-gap: 6px;
 }
 
-div {
+
     .tables {
         text-align: center;
           table {
@@ -82,7 +90,7 @@ div {
             margin-bottom: 50px;
         }
     }
-}
+
 
 
 .video {
@@ -92,11 +100,7 @@ div {
 	height: 0;
     
     iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    @extend %iframevideo;
     padding: 25px;
     }
 }

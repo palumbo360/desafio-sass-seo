@@ -21,4 +21,12 @@ commit=agregado de favicom {
 
     se agrego el favicom a todos los html
     }
+
+commit=mejoras en scss {
+    se creo archivo responsive dentro de scss para contener todos los @media
+}
+
+commit=sitemap {
+    se agrego sitemap
+}
     

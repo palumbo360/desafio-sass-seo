@@ -37,42 +37,6 @@ h1 {
     -webkit-transform: scale(1);
     transform: scale(1); } }
 
-@media (min-width: 1000px) {
-  .header {
-    background-image: url(../img/header);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 60%;
-    background-color: black; }
-    .header img {
-      position: relative;
-      left: 2%;
-      top: 10%;
-      width: 25%; }
-  .flip-scale-up-hor {
-    -webkit-animation: flip-scale-up-hor 0.9s steps(2, end) backwards;
-    animation: flip-scale-up-hor 0.9s steps(2, end) backwards; }
-  @-webkit-keyframes flip-scale-up-hor {
-    0% {
-      -webkit-transform: scale(1) rotateX(0);
-      transform: scale(1) rotateX(0); }
-    50% {
-      -webkit-transform: scale(2.5) rotateX(-90deg);
-      transform: scale(2.5) rotateX(-90deg); }
-    100% {
-      -webkit-transform: scale(1) rotateX(-180deg);
-      transform: scale(1) rotateX(-180deg); } }
-  @keyframes flip-scale-up-hor {
-    0% {
-      -webkit-transform: scale(1) rotateX(0);
-      transform: scale(1) rotateX(0); }
-    50% {
-      -webkit-transform: scale(2.5) rotateX(-90deg);
-      transform: scale(2.5) rotateX(-90deg); }
-    100% {
-      -webkit-transform: scale(1) rotateX(-180deg);
-      transform: scale(1) rotateX(-180deg); } } }
-
 nav {
   background-color: #354167; }
   nav div {
@@ -131,11 +95,6 @@ nav {
   100% {
     -webkit-transform: translateX(0px);
     transform: translateX(0px); } }
-
-@media (min-width: 550px) {
-  .menu ul li {
-    padding: 10px 15px;
-    list-style-type: none; } }
 
 .principal p {
   color: #9b93a1;
@@ -224,6 +183,47 @@ div .tables {
     width: 50%; }
   .final .f2 p {
     color: #9b93a1; }
+
+@media (min-width: 1000px) {
+  .header {
+    background-image: url(../img/header);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-color: black; }
+    .header img {
+      position: relative;
+      left: 2%;
+      top: 10%;
+      width: 25%; }
+  .flip-scale-up-hor {
+    -webkit-animation: flip-scale-up-hor 0.9s steps(2, end) backwards;
+    animation: flip-scale-up-hor 0.9s steps(2, end) backwards; }
+  @-webkit-keyframes flip-scale-up-hor {
+    0% {
+      -webkit-transform: scale(1) rotateX(0);
+      transform: scale(1) rotateX(0); }
+    50% {
+      -webkit-transform: scale(2.5) rotateX(-90deg);
+      transform: scale(2.5) rotateX(-90deg); }
+    100% {
+      -webkit-transform: scale(1) rotateX(-180deg);
+      transform: scale(1) rotateX(-180deg); } }
+  @keyframes flip-scale-up-hor {
+    0% {
+      -webkit-transform: scale(1) rotateX(0);
+      transform: scale(1) rotateX(0); }
+    50% {
+      -webkit-transform: scale(2.5) rotateX(-90deg);
+      transform: scale(2.5) rotateX(-90deg); }
+    100% {
+      -webkit-transform: scale(1) rotateX(-180deg);
+      transform: scale(1) rotateX(-180deg); } } }
+
+@media (min-width: 550px) {
+  .menu ul li {
+    padding: 10px 15px;
+    list-style-type: none; } }
 
 @media (min-width: 550px) {
   .final {

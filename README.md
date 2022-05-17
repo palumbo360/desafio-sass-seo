@@ -17,7 +17,8 @@ tienda// agregue keywords ="conquerors blade, predatorian, predatorians, casa la
     / agregue description ="tienda de compra de skins de conqueros bleda por temporada"
     }
 
-commit=agregado de favicom
+commit=agregado de favicom {
 
     se agrego el favicom a todos los html
+    }
     

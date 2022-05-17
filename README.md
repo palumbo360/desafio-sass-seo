@@ -1,5 +1,6 @@
 # aplicando-sass-seo
 
+commit=agregado de estiquetas meta {
 index// agregue keywords ="conquerors blade, predatorian, predatorians, casa latina, conqueros blade español, server na"
     / agregue description ="predatorians casa latina competitiva de conquerors blede en servidor na"
 
@@ -14,3 +15,9 @@ organizacion// agregue keywords ="conquerors blade, predatorian, predatorians, c
 
 tienda// agregue keywords ="conquerors blade, predatorian, predatorians, casa latina, conqueros blade español, server na, tienda, skins de temporada"
     / agregue description ="tienda de compra de skins de conqueros bleda por temporada"
+    }
+
+commit=agregado de favicom
+
+    se agrego el favicom a todos los html
+    

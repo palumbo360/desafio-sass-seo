@@ -1,0 +1,24 @@
+.final {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    padding: 15px;
+    .f1 img {
+        width: 50%;
+   }
+    .f2 p{
+        color: rgb(155, 147, 161);
+    }
+}
+
+@media (min-width: 550px){
+
+    .final {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+        align-items: end
+    }
+    }

@@ -1,0 +1,16 @@
+$titles-color:#a52a2a;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+@import "header";
+@import "nav";
+@import "principal";
+@import "footer";

@@ -29,4 +29,7 @@ commit=mejoras en scss {
 commit=sitemap {
     se agrego sitemap
 }
-    
+
+commit=discord {
+    se corrigio html de discord con su respectivo iframe y responsive
+}

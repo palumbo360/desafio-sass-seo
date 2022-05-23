@@ -1,5 +1,13 @@
 $titles-color:#a52a2a;
 
+@mixin titulos ($text, $color, $font, $align, $padding) {
+    text-transform: $text;
+    color: $color;
+    font-weight: $font;
+    text-align: $align;
+    padding: $padding;
+}
+
 
 
 * {

@@ -37,3 +37,7 @@ commit=discord {
 commit=titles {
     se corrigieron titulos de los html
 }
+
+commit=mixin {
+    se agrego mixin de titulos
+}

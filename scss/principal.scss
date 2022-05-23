@@ -24,24 +24,13 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    color: $titles-color;
-    font-weight: bold;
-}
 
 h2 {
-    text-transform: uppercase;
-    color: $titles-color; 
-    font-weight: bold;
-    padding: 15px 20px;
+    @include titulos (uppercase,$titles-color,bold,center,15px 20px);
 }
 
 h3 {
-    text-transform: uppercase;
-    color: #a52a2a;
-    font-weight: bold;
-    padding: 20px 5px;
-    text-align: center;
+    @include titulos (uppercase,$titles-color,bold,center,20px 5px);
 }
 
 

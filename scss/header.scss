@@ -1,9 +1,7 @@
 h1 {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 20px 0;
+  @include titulos (uppercase, $titles-color,bold,center,20px 0px);
     background-color: rgb(53, 65, 103);
-    color: #637d94;
+ 
 }
 
 .header{

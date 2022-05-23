@@ -33,3 +33,7 @@ commit=sitemap {
 commit=discord {
     se corrigio html de discord con su respectivo iframe y responsive
 }
+
+commit=titles {
+    se corrigieron titulos de los html
+}

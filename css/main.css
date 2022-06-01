@@ -137,7 +137,6 @@ h3 {
 
 .cuatro a img {
   position: relative;
-  top: 10%;
   width: 100%; }
 
 .card-text {
@@ -221,6 +220,13 @@ ol {
   .final .f2 p {
     color: #9b93a1; }
 
+@media (min-width: 768px) {
+  .header img {
+    position: relative;
+    left: 30%;
+    top: 10%;
+    width: 35%; } }
+
 @media (min-width: 1000px) {
   .header {
     background-image: url(../img/header);
@@ -260,9 +266,7 @@ ol {
 @media (min-width: 550px) {
   .menu ul li {
     padding: 10px 15px;
-    list-style-type: none; } }
-
-@media (min-width: 550px) {
+    list-style-type: none; }
   .final {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

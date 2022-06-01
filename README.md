@@ -41,3 +41,7 @@ commit=titles {
 commit=mixin {
     se agrego mixin de titulos
 }
+
+commit=semantica {
+    se corrigio semantica de los archivos html, se hicieron cambios menores en colores y margenes
+}
